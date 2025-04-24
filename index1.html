@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Code Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Code Generator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>⚡ AI Code Generator</h1>
+  <h1>AI-Powered Code Generator</h1>
 
-  <textarea id="prompt" placeholder="Enter your code prompt here..."></textarea>
-  <button onclick="generateCode()">Generate Code</button>
+  <div class="input-section">
+    <textarea id="prompt" placeholder="Enter your code prompt here..."></textarea>
+    <button onclick="generateCode()">Generate Code</button>
+  </div>
 
-  <h2>🔽 Generated Code:</h2>
-  <pre id="output">Your result will appear here...</pre>
+  <h2>Generated Code:</h2>
+  <pre id="output">Your generated code will appear here...</pre>
 
   <script src="script.js"></script>
 </body>
